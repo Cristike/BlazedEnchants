@@ -1,7 +1,7 @@
 name: BlazedEnchants
 version: ${project.version}
 main: me.cristike.enchants.Main
-api-version: 1.16
+api-version: 1.8
 authors: [ Cristike ]
 commands:
   enchantbook:

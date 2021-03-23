@@ -3,7 +3,6 @@ package me.cristike.enchants.events;
 import me.cristike.enchants.Main;
 import me.cristike.enchants.utility.Util;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -25,7 +24,7 @@ public class IClickEvent implements Listener {
 
         String enchantName = Util.getEnchantName(e.getCursor());
         int enchantLevel = Util.getEnchantLevel(e.getCursor());
-        e.getCurrentItem().addUnsafeEnchantment(Enchantment.getByKey(NamespacedKey.minecraft(enchantName.toLowerCase())), enchantLevel);
+        e.getCurrentItem().addUnsafeEnchantment(Enchantment.getByName(enchantName.toUpperCase()), enchantLevel);
         p.setItemOnCursor(new ItemStack(Material.AIR));
     }
 }
