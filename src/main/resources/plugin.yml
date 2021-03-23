@@ -1,0 +1,9 @@
+name: VanillaEnchantCommand
+version: ${project.version}
+main: me.cristike.enchants.Main
+api-version: 1.16
+authors: [ Cristike ]
+commands:
+  enchantbook:
+    description: Give a enchant book to a player
+    permission: enchantbook.give

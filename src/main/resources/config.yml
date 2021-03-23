@@ -1,0 +1,198 @@
+Enchants:
+  aqua_affinity:
+    DisplayName: '&6&lAqua Affinity'
+    Description: '&6Speeds up how fast you can mine blocks underwater'
+    MinLevel: 1
+    MaxLevel: 1
+    Items:
+      - 'Helmet'
+  bane_of_arthropods:
+    DisplayName: '&6&lBane of Arthropods'
+    Description: '&6Increases attack damage against arthropods'
+    MinLevel: 1
+    MaxLevel: 5
+    Items:
+      - 'Sword'
+      - 'Axe'
+  blast_protection:
+    DisplayName: '&6&lBlast Protection'
+    Description: '&6Reduces blast and explosion damage'
+    MinLevel: 1
+    MaxLevel: 4
+    Items:
+      - 'Armor'
+  depth_strider:
+    DisplayName: '&6&lBlast Protection'
+    Description: '&6Speeds up how fast you can move underwater'
+    MinLevel: 1
+    MaxLevel: 3
+    Items:
+      - 'Boots'
+  efficiency:
+    DisplayName: '&6&lEfficiency'
+    Description: '&6Increases how fast you can mine'
+    MinLevel: 1
+    MaxLevel: 5
+    Items:
+      - 'Tools'
+  feather_falling:
+    DisplayName: '&6&lFeather Falling'
+    Description: '&6Reduces fall and teleportation damage'
+    MinLevel: 1
+    MaxLevel: 4
+    Items:
+      - 'Boots'
+  fire_aspect:
+    DisplayName: '&6&lFire Aspect'
+    Description: '&6Sets target on fire'
+    MinLevel: 1
+    MaxLevel: 2
+    Items:
+      - 'Sword'
+  fire_protection:
+    DisplayName: '&6&lFire Protection'
+    Description: '&6Reduces damage caused by fire and lava'
+    MinLevel: 1
+    MaxLevel: 4
+    Items:
+      - 'Armor'
+  flame:
+    DisplayName: '&6&lFlame'
+    Description: '&6Turns arrows into flaming arrows'
+    MinLevel: 1
+    MaxLevel: 1
+    Items:
+      - 'Bow'
+  frost_walker:
+    DisplayName: '&6&lFrost Walker'
+    Description: '&6Increases attack damage against sea creatures'
+    MinLevel: 1
+    MaxLevel: 1
+    Items:
+      - 'Boots'
+  infinity:
+    DisplayName: '&6&lInfinity'
+    Description: '&6Shoots an infinite amount of arrows'
+    MinLevel: 1
+    MaxLevel: 1
+    Items:
+      - 'Bow'
+  knockback:
+    DisplayName: '&6&lKnockback'
+    Description: '&6Increases knockback dealt (enemies repel backwards)'
+    MinLevel: 1
+    MaxLevel: 2
+    Items:
+      - 'Sword'
+  looting:
+    DisplayName: '&6&Looting'
+    Description: '&6Increases amount of loot dropped when mob is killed'
+    MinLevel: 1
+    MaxLevel: 3
+    Items:
+      - 'Sword'
+  luck_of_the_sea:
+    DisplayName: '&6&Luck of the Sea'
+    Description: '&6Increases chances of catching valuable items'
+    MinLevel: 1
+    MaxLevel: 3
+    Items:
+      - 'Fishing Rod'
+  lure:
+    DisplayName: '&6&lLure'
+    Description: '&6Increases the rate of fish biting your hook'
+    MinLevel: 1
+    MaxLevel: 3
+    Items:
+      - 'Fishing Rod'
+  power:
+    DisplayName: '&6&lPower'
+    Description: '&6Increases damage dealt by bow'
+    MinLevel: 1
+    MaxLevel: 5
+    Items:
+      - 'Bow'
+  projectile_protection:
+    DisplayName: '&6&lProjectile Protection'
+    Description: '&6Reduces projectile damage (arrows, fireballs, fire charges)'
+    MinLevel: 1
+    MaxLevel: 4
+    Items:
+      - 'Armor'
+  protection:
+    DisplayName: '&6&lProtection'
+    Description: '&6General protection against attacks, fire, lava, and falling'
+    MinLevel: 1
+    MaxLevel: 4
+    Items:
+      - 'Armor'
+  punch:
+    DisplayName: '&6&lPunch'
+    Description: '&6Increases knockback dealt (enemies repel backwards)'
+    MinLevel: 1
+    MaxLevel: 2
+    Items:
+      - 'Bow'
+  respiration:
+    DisplayName: '&6&lRespiration'
+    Description: '&6Extends underwater breathing (see better underwater)'
+    MinLevel: 1
+    MaxLevel: 2
+    Items:
+      - 'Helmet'
+  sharpness:
+    DisplayName: '&6&lSharpness'
+    Description: '&6Increases attack damage dealt to mobs'
+    MinLevel: 1
+    MaxLevel: 5
+    Items:
+      - 'Sword'
+      - 'Axe'
+  silk_touch:
+    DisplayName: '&6&lSilk Touch'
+    Description: '&6Mines blocks themselves (fragile items)'
+    MinLevel: 1
+    MaxLevel: 1
+    Items:
+      - 'Tools'
+  smite:
+    DisplayName: '&6&lSmite'
+    Description: '&6Increases attack damage against undead mobs'
+    MinLevel: 1
+    MaxLevel: 5
+    Items:
+      - 'Sword'
+  thorns:
+    DisplayName: '&6&lT horns'
+    Description: '&6Causes damage to attackers'
+    MinLevel: 1
+    MaxLevel: 3
+    Items:
+      - 'Armor'
+  unbreaking:
+    DisplayName: '&6&lUnbreaking'
+    Description: '&6Increases durability of item'
+    MinLevel: 1
+    MaxLevel: 3
+    Items:
+      - 'Sword'
+      - 'Bow'
+      - 'Fishing Rod'
+      - 'Tools'
+      - 'Armor'
+
+Item Lore:
+  - '&fLevel: &6{level}'
+  - '&r'
+  - '{description}'
+  - '&r'
+  - '&6&nDrag & Drop &7to enchant your item'
+
+Usage: '&fUsage: &6/enchantbook give [player] [enchant] [level] [quantity]'
+InvalidPlayer: '&cThe targeted player is not online or does not exist'
+InvalidEnchant: '&cThe provided enchant name is does not target a valid vanilla enchant'
+ArgumentNotANumber: '&cOne of your arguments is not a number. Please change it to a number'
+LevelOutOfBounds: '&cThe level argument is out of bounds'
+QuantityOutOfBounds: '&cThe quantity argument is out of bounds'
+EnchantBooksAdded: '&aThe enchants book specified were added to the players inventory'
+
