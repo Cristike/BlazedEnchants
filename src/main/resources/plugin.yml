@@ -1,4 +1,4 @@
-name: VanillaEnchantCommand
+name: BlazedEnchants
 version: ${project.version}
 main: me.cristike.enchants.Main
 api-version: 1.16
