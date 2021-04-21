@@ -188,4 +188,4 @@ ArgumentNotANumber: '&cOne of your arguments is not a number. Please change it t
 LevelOutOfBounds: '&cThe level argument is out of bounds'
 QuantityOutOfBounds: '&cThe quantity argument is out of bounds'
 EnchantBooksAdded: '&aThe enchants book specified were added to the players inventory'
-
+EnchantAlreadyApplied: '&cThere is already an enchant with the maximum level on this item!'
