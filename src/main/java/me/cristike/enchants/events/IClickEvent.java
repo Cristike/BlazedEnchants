@@ -27,7 +27,7 @@ public class IClickEvent implements Listener {
         int currentEnchantLevel = e.getCurrentItem().getEnchantmentLevel(Enchantment.getByName(enchantName));
 
         if (currentEnchantLevel >= Main.instance.getConfig().getInt("Enchants." + enchantName + ".MaxLevel")) {
-            p.sendMessage(Main.instance.getConfig().getString("EnchantAlreadyApplied"));
+            p.sendMessage(Util.color(Main.instance.getConfig().getString("EnchantAlreadyApplied")));
             return;
         }
 
@@ -37,5 +37,6 @@ public class IClickEvent implements Listener {
 
         e.getCurrentItem().addUnsafeEnchantment(Enchantment.getByName(enchantName.toUpperCase()), finalLevel);
         p.setItemOnCursor(new ItemStack(Material.AIR));
+        p.sendMessage(Util.color(Main.instance.getConfig().getString("EnchantApplied")));
     }
 }
